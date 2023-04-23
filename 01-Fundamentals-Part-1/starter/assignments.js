@@ -304,3 +304,7 @@ const myCountry = {
   population: 350000000,
   neighbors: ["Canada", "Mexico"],
 };
+
+console.log(
+  `The ${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbors.length} neighboring countries, and a capital called ${myCountry.capital}. `
+);
